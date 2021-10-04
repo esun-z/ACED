@@ -5,7 +5,7 @@ Link your MIDI keyboard to ACE Virtual Singer
 
 Clone this project and change the forms in the beginning of ACED.cpp to apply your own settings. Then generate the executable file with Visual Studio 2015 or other available version which may cause some problems.
 
-Put ACED.exe beside a folder called scrcpy, in which there is a release of [scrcpy](https://github.com/Genymobile/scrcpy/releases/.)
+Put ACED.exe beside a folder called scrcpy, in which there is a release of [scrcpy](https://github.com/Genymobile/scrcpy/releases/.).
 
 ![Put the files like this](https://i.loli.net/2021/10/04/bjtU2qCv1oDTsBM.png)
 
@@ -20,6 +20,10 @@ Then run ACED.exe and enjoy.
 **I am not going to maintain this project, so fork or clone it and make it better by yourself if you want.**
 
 **I didn't release any release because you still need to change the forms in the beginning of ACED.cpp to apply your own settings.**
+
+## How it works
+
+This program use RtMidi to read midi messages from a midi input port then simulate mouse events to control ACE Virtual Singer through scrcpy. (Because I just cannot figure out how to send tap messages to android devices with a low latency.)
 
 ## Using Libraries
 
