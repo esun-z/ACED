@@ -18,7 +18,8 @@
 //
 //使用时请提前在手机端选择好音阶，并开始录制
 //
-//Using scrcpy to implement low-latency screen clicks to an android phone
+//Using scrcpy to implement low-latency screen clicks to an android phone.
+//Using RtMidi Library for midi connection.
 
 const int KEYS[16] = {
 	55,57,59,61,62,64,66,67,69,71,73,74,76,78,79,81
