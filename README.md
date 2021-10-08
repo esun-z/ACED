@@ -25,6 +25,10 @@ Then run ACED.exe and enjoy.
 
 This program use RtMidi to read midi messages from a midi input port. Then it simulate mouse events to control ACE Virtual Singer through scrcpy. (Because I just cannot figure out how to send tap messages to android devices with a low latency.)
 
+## Platform
+
+Windows x86
+
 ## Using Libraries
 
 [RtMidi](https://github.com/thestk/rtmidi)
